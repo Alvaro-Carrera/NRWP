@@ -144,8 +144,6 @@ void read_case(){
 }
 int main() {
     ios_base::sync_with_stdio(false);cin.tie(0);
-    freopen("testcases/small1.in","r",stdin);
-  //  freopen("testcases/setter.out","w",stdout);
     int t;cin >> t;
     while (t--) {
         read_case();
